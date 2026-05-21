@@ -879,7 +879,7 @@ Baseline Results (test set):
   {'FastText-proxy (char n-gram)':<35} {ft_results['binary_f1']:>10.4f} {ft_results['macro_f1']:>10.4f}
 
   RQ1 target: Binary F1 ≥ 0.85  |  Macro F1 ≥ 0.75
-  LR result : {'✅ PASS' if lr_results['binary_f1'] >= 0.85 else '❌ FAIL'}
+  LR result : {'PASS' if lr_results['binary_f1'] >= 0.85 else 'FAIL'}
 
 LOTO types available:
 {df['disaster_type'].value_counts().to_string()}
