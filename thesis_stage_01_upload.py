@@ -883,16 +883,3 @@ Baseline Results (test set):
 
 LOTO types available:
 {df['disaster_type'].value_counts().to_string()}
-
-All files saved to: {DRIVE_STAGE1_DIR}
-  df_clean.csv            ← main artifact for Stage 2
-  split_indices.json      ← train/val/test splits
-  tfidf_vectorizer.pkl    ← TF-IDF vectoriser
-  baseline_results.json   ← for thesis table
-  fig1–fig7.png           ← thesis figures
-
-Next: run Stage 2 notebook
-  Tell Claude: 'Stage 2'
-  Upload from Drive: df_clean.csv, split_indices.json
-""")
-print("✓ Stage 1 complete")
